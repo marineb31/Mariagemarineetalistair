@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-title">[Vos Noms]</div>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="histoire.html">Notre histoire</a></li>
+            <li><a href="details.html">Détails</a></li>
+            <li><a href="rsvp.html" class="active">RSVP</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <section class="content">
+        <h1>RSVP</h1>
+        <!-- Modifier l'URL du formulaire ici -->
+        <form action="https://formspree.io/f/[votre-id-formspree]" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="guests">Nombre d'invités :</label>
+            <input type="number" id="guests" name="guests" min="1" required>
+            <label for="diet">Restrictions alimentaires :</label>
+            <textarea id="diet" name="diet"></textarea>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+    <footer>
+        <!-- Modifier le texte ici -->
+        <p>Contactez-nous : [votre-email@example.com] | [votre-numéro]</p>
+    </footer>
+</body>
+</html>
