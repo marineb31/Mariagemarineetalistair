@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.nav-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    text-align: center;
+    /* Modifier le texte ici : remplacez '[Vos Noms]' dans index.html, histoire.html, etc. */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+nav ul li a.active, nav ul li a:hover {
+    color: #d4af37; /* Or pour une touche élégante */
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    /* Modifier la photo ici : remplacez 'hero-image.jpg' dans index.html */
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    margin: 0;
+    /* Modifier le texte ici : dans index.html */
+}
+
+.hero-text p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d4af37;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background-color: #b8962e;
+}
+
+.welcome, .content {
+    max-width: 800px;
+    margin: 100px auto 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome h2, .content h1 {
+    font-family: 'Playfair Display', serif;
+    color: #d4af37;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #eee;
+    /* Modifier le texte ici : dans chaque fichier HTML */
+}
