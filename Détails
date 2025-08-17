@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-title">[Vos Noms]</div>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="histoire.html">Notre histoire</a></li>
+            <li><a href="details.html" class="active">Détails</a></li>
+            <li><a href="rsvp.html">RSVP</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <section class="content">
+        <!-- Modifier le texte ici -->
+        <h1>Détails de l'événement</h1>
+        <h2>Cérémonie</h2>
+        <p>16h00, Église Saint-Paul, [Adresse]</p>
+        <h2>Réception</h2>
+        <p>19h00, Château de la Rose, [Adresse]</p>
+        <p>Code vestimentaire : Tenue de cocktail</p>
+        <p>Parking gratuit disponible. Pas d'enfants, merci de votre compréhension.</p>
+    </section>
+    <footer>
+        <!-- Modifier le texte ici -->
+        <p>Contactez-nous : [votre-email@example.com] | [votre-numéro]</p>
+    </footer>
+</body>
+</html>
